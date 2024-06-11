@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvMSV"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MSV: PH50030"
+        android:textSize="30sp"
+        android:textColor="#ED0909" />
+    <TextView
+        android:id="@+id/tvTen"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/tvMSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ tên: Nguyễn Quang Dương"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_below="@id/tvTen"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tvLop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lớp: MD19301"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textSize="20sp"
+        android:backgroundTint="#4D60CC"
+        android:layout_below="@id/tvLop"
+        android:layout_marginLeft="100dp" />
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textSize="20sp"
+        android:backgroundTint="#4D60CC"
+        android:layout_below="@id/tvLop"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/btnUpdate"/>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab_TongHop_PH50030</string>
+    <string name="tv_gioiThieu">
+        Thông tin giới thiệu\n
+         Chào mừng bạn đến với lớp MD19301\n
+         Thầy giáo: Đặng Thái Sơn\n
+         Chúc các bạn thành công pass môn\n
+    </string>
+</resources>

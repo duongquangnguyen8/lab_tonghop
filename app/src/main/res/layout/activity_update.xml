@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tvUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:id="@+id/edtUpdateMSV"
+        android:layout_below="@id/tvUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Nhập MSV "
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/edtUpdateTen"
+        android:layout_below="@id/edtUpdateMSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Nhập họ tên "
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/edtUpdateLop"
+        android:layout_below="@id/edtUpdateTen"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lớp "
+        android:padding="10dp" />
+
+
+</RelativeLayout>
